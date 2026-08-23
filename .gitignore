@@ -1,0 +1,13 @@
+# Your job search data stays local by default.
+# Delete these lines if you WANT to version your own search (recommended if the repo is private).
+workspace/**
+!workspace/**/.gitkeep
+!workspace/README.md
+config.md
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
