@@ -31,6 +31,8 @@ Say approximately this, in your own words:
 
 > I'm going to set up a job search system for you. It'll be about 10 questions — five minutes. There are optional deeper modules afterward if you want them, but you'll have a working system after the quick pass.
 >
+> If you have an existing resume, prior performance reviews, writing samples, or notes, you can drop them into `workspace/documents/` at any time — I will read them so you don't have to retype your history.
+>
 > Nothing here needs a subscription or an account. Everything lives in plain files you own.
 >
 > If you don't know an answer, say so — I'll mark it and we'll come back.
@@ -345,12 +347,15 @@ Create these, in this order. Copy from `templates/`, substitute placeholders, ke
 
 1. `config.md` (repo root) — from `templates/config.md`. All parameters above, plus `## Open Items` for every `[TBD]`.
 2. `workspace/profile/profile.md` — from `templates/profile.md`. Add `## Transferable Skills Map` if `career-changer`.
-3. `workspace/profile/master-resume.md` — from `templates/master-resume.md`, structured per persona.
+3. `workspace/profile/master-resume.md` — from `templates/master-resume.md`, structured per persona. (If documents exist in `workspace/documents/`, extract factual career history from them).
 4. `workspace/profile/star-stories.md` — from `templates/star-stories.md`, competency list adjusted per persona.
 5. `workspace/applications/tracker.csv` — header row only from `templates/tracker.csv`.
 6. `workspace/applications/weekly-log.md` — header row only.
 7. `workspace/profile/outreach-log.md` — from `templates/outreach-log.md`.
-8. Any deep-module outputs the user opted into.
+8. `.learnings/career-journey.md` — from `templates/.learnings/career-journey.md`, initialized with persona, target roles, origin role, and initial observations.
+9. `.learnings/application-learnings.md` — from `templates/.learnings/application-learnings.md`.
+10. `.learnings/system-adaptations.md` — from `templates/.learnings/system-adaptations.md`, initialized with base rubric weights.
+11. Any deep-module outputs the user opted into.
 
 **Do not** pre-fill experience, employers, or achievements you weren't told. Leave the structure with `[TBD]` markers. Filling `master-resume.md` is a separate working session — tell the user that's the natural next step and offer to start it.
 
