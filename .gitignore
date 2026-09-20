@@ -6,6 +6,13 @@ config.md
 !workspace/**/
 !workspace/**/.gitkeep
 !workspace/README.md
+!workspace/documents/README.md
+
+# Continuous learning and self-improvement data stays local
+.learnings/**/*
+!.learnings/**/
+!.learnings/**/.gitkeep
+!.learnings/README.md
 
 # OS / editor noise
 .DS_Store
