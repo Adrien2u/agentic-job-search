@@ -2,7 +2,7 @@
 
 Turn a posting into a 0–100 score and a decision with a reason attached.
 
-**Inputs:** the posting text, `config.md`, `workspace/profile/profile.md`, `reference/scoring-rubric.md`
+**Inputs:** the posting text, `config.md`, `workspace/profile/profile.md`, `reference/scoring-rubric.md`, `.learnings/system-adaptations.md`, `.learnings/application-learnings.md`
 **Output:** a score, a verdict, and an updated `tracker.csv` row
 
 ---
@@ -29,7 +29,7 @@ If a gate is *uncertain* (comp not published, sponsorship not stated), do not fa
 
 ## Step 2 — Score each criterion 0–10
 
-Read `reference/scoring-rubric.md` for weights, including `{{PERSONA}}` overrides.
+Read `reference/scoring-rubric.md` for weights, including `{{PERSONA}}` overrides. Check `.learnings/system-adaptations.md` for calibrated weight overrides before using default weights. Note if an elimination pattern from `.learnings/application-learnings.md` applies.
 
 **1. Role-type match** — compare the described *responsibilities* to `{{TARGET_ROLES}}`. Ignore the title. A "Program Manager" posting that describes event production is an event role.
 

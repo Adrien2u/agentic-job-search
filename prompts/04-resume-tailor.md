@@ -2,7 +2,7 @@
 
 Cut one posting-specific resume from the master. Never edit the master.
 
-**Inputs:** the posting text, `workspace/profile/master-resume.md`, `config.md`
+**Inputs:** the posting text, `workspace/profile/master-resume.md`, `config.md`, `.learnings/career-journey.md`, `.learnings/system-adaptations.md`, `workspace/documents/` (optional)
 **Output:** `workspace/applications/{{COMPANY}}-{{ROLE}}/resume.md`
 
 ---
@@ -21,7 +21,7 @@ If the honest tailored version is weak, that's information about the fit — sur
 
 ## I. Guiding principles
 
-**Tone.** Plain, active, specific. No "passionate," "results-driven," "dynamic," "synergy," "thought leader." Every bullet starts with a verb.
+**Tone.** Plain, active, specific. No "passionate," "results-driven," "dynamic," "synergy," "thought leader." Every bullet starts with a verb. Check `.learnings/system-adaptations.md` for calibrated tone rules and `.learnings/career-journey.md` for authentic voice and unwritten competencies. Check `workspace/documents/` if deeper evidence or project context is needed.
 
 **Keywords.** Pull the 15–20 terms the posting leans on — repeated phrases, the must-have list, the exact tool and methodology names. Use the ones that honestly describe the user's work, in the posting's wording. This is how a recruiter's keyword search finds the resume. It is not stuffing: a term that doesn't describe real work doesn't go in.
 
