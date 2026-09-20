@@ -14,7 +14,12 @@ After setup, you have:
 
 ```
 config.md                       everything the agent knows about your search
+.learnings/
+  career-journey.md             past context, present bandwidth, future horizon
+  application-learnings.md      market feedback, resonance vs rejection patterns
+  system-adaptations.md         calibrated weights, query overrides, tone rules
 workspace/
+  documents/                    drop folder for uploaded resumes, reviews, samples
   profile/
     profile.md                  who you are, positioning, strengths
     master-resume.md            your full history — the source of truth
@@ -28,7 +33,7 @@ workspace/
   interviews/                   prep docs
 ```
 
-And eleven workflows you invoke by name:
+And twelve workflows you invoke by name:
 
 | | Workflow | What it does |
 |---|---|---|
@@ -43,6 +48,7 @@ And eleven workflows you invoke by name:
 | 08 | follow-up | when to nudge, what to say, when to let go |
 | 09 | offer & negotiation | evaluate the whole package, frame a counter |
 | 10 | weekly review | what's stalled, what's next, is this working |
+| 11 | self-improvement | capture career learnings, refine system adaptations |
 
 ---
 
@@ -98,6 +104,7 @@ The quick path is ten questions and gives you a working system. Seven optional d
 
 - `SETUP.md` — the setup interview (written for the agent, readable by you)
 - `CLAUDE.md` — the standing rules the agent follows every session
+- `reference/self-improvement.md` — how continuous learning, document ingestion, and calibration works
 - `reference/personas.md` — the six archetypes and how the system shifts for each
 - `reference/scoring-rubric.md` — how roles get scored, and how to change the weights
 - `reference/cadence.md` — follow-up timing
@@ -107,7 +114,7 @@ The quick path is ten questions and gives you a working system. Seven optional d
 
 ## Privacy
 
-Your data lives in `workspace/` and `config.md`, and both are gitignored by default. If you fork this to a private repo and *want* your search versioned, delete those lines from `.gitignore`.
+Your data lives in `workspace/`, `.learnings/`, and `config.md`, and all three are gitignored by default. If you fork this to a private repo and *want* your search versioned, delete those lines from `.gitignore`.
 
 ---
 
