@@ -4,6 +4,7 @@ Your data lives here. Nothing in this directory ships with the repo — it's cre
 
 | Folder | Holds |
 |---|---|
+| `documents/` | uploaded source documents (past resumes, reviews, writing samples, portfolios) |
 | `profile/` | `profile.md`, `master-resume.md`, `star-stories.md`, `outreach-log.md`, deep-module outputs |
 | `applications/` | `tracker.csv`, `weekly-log.md`, and one folder per application with the tailored resume, cover letter, saved posting, and notes |
 | `research/` | one company brief per employer |
