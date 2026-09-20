@@ -2,7 +2,7 @@
 
 Once a week, same day. Twenty minutes. The one habit that keeps a search from drifting.
 
-**Inputs:** `tracker.csv`, `workspace/profile/outreach-log.md`, `workspace/applications/weekly-log.md`, `config.md`
+**Inputs:** `tracker.csv`, `workspace/profile/outreach-log.md`, `workspace/applications/weekly-log.md`, `config.md`, `.learnings/system-adaptations.md`, `.learnings/application-learnings.md`
 **Output:** an updated weekly log and a concrete plan for next week
 
 ---
@@ -66,6 +66,7 @@ Cluster them. This is the highest-value five minutes in the review.
 | No pattern | targeting is probably fine. It's a volume and conversion problem |
 
 Also worth noticing: is the user consistently passing on the thing they said they wanted? That's real information about what they actually want, and it belongs in a `config.md` conversation.
+Append recurring elimination patterns to `.learnings/application-learnings.md`.
 
 ## 6. Sanity check the effort
 
@@ -87,7 +88,10 @@ Write it down, concretely:
 - **Follow-ups:** what's due, by date
 - **One system fix:** the single thing from this review worth changing — a rubric weight, a search string, a resume section, a target
 
-One fix. Not five. Five changes at once means you learn nothing from any of them.
+One fix. Not five. Five changes at once means you learn nothing from any of them. Record the fix in `.learnings/system-adaptations.md` under Section 5 (Changelog) and calibrate rubric weights, search queries, or tone accordingly.
+
+Offer to the user:
+> "Would you like to run `11-self-improvement` to do a deeper calibration on your career goals and market fit?"
 
 ## 8. Every four weeks — the bigger question
 
