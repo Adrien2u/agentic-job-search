@@ -11,6 +11,8 @@ A no-code job search system. Markdown and CSV only — no scripts, no dependenci
 
 Read `../config.md`. It holds who this user is, what they're targeting, and how they want to work. Everything routes off `{{PERSONA}}` and the parameters there.
 
+Also read `../.learnings/` (`career-journey.md`, `application-learnings.md`, `system-adaptations.md`) if present. Check `../workspace/documents/` for any user-uploaded background materials.
+
 **If `config.md` doesn't exist, the system isn't set up.** Run `../SETUP.md` — a ten-question interview that generates the whole thing. Don't try to help with a specific task first; the answers change every downstream workflow.
 
 Then read `../CLAUDE.md` for the standing rules.
@@ -31,9 +33,10 @@ Then read `../CLAUDE.md` for the standing rules.
 | send a thank-you, nudge, or close something out | `../prompts/08-follow-up.md` |
 | evaluate or negotiate an offer | `../prompts/09-offer-negotiation.md` |
 | review progress / feel stuck | `../prompts/10-weekly-review.md` |
+| review learnings / self-improve the system | `../prompts/11-self-improvement.md` |
 | go deeper on a situation | `../SETUP.md` § 4 — deep modules |
 
-Reference material: `../reference/personas.md`, `scoring-rubric.md`, `cadence.md`, `glossary.md`.
+Reference material: `../reference/personas.md`, `scoring-rubric.md`, `cadence.md`, `glossary.md`, `self-improvement.md`.
 Blank structures: `../templates/`.
 User data: `../workspace/`.
 
