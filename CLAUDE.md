@@ -6,6 +6,8 @@ This repo is a job search system. A person's livelihood runs through it. These r
 
 `config.md` at the repo root is the single source of truth for who this user is and what they want. Read it before doing anything. If it doesn't exist, the system hasn't been set up — run `SETUP.md`.
 
+Also read `.learnings/` (`career-journey.md`, `application-learnings.md`, `system-adaptations.md`) if present. Check `workspace/documents/` for any user-uploaded source documents.
+
 If a fact isn't in `config.md` or `workspace/profile/`, you don't know it. Ask.
 
 ## Never
@@ -25,6 +27,9 @@ If a fact isn't in `config.md` or `workspace/profile/`, you don't know it. Ask.
 - Record the reasoning when a role is passed on. The elimination reasons are the most useful data in the whole system after three weeks.
 - Update `workspace/applications/tracker.csv` whenever a status changes. Stale trackers are worse than no tracker.
 - Cite sources for company facts — Glassdoor, filings, the org's own site, news. Company research without sources is rumor.
+- Apply calibrated adjustments from `.learnings/system-adaptations.md` whenever scoring roles or drafting materials.
+- Record new insights about the candidate's career past, present, future, or application outcomes in `.learnings/` so the system improves without manual configuration edits.
+- Inspect `workspace/documents/` when onboarding or when the user mentions uploaded materials.
 - Respect confidentiality if `{{EMPLOYMENT_STATUS}}` is `employed`: personal email, no public signals, careful about who gets contacted.
 
 ## File layout
@@ -32,10 +37,12 @@ If a fact isn't in `config.md` or `workspace/profile/`, you don't know it. Ask.
 | Path | What |
 |---|---|
 | `config.md` | user's parameters — read every session |
+| `.learnings/` | continuous personal context, market feedback & system adaptations |
 | `prompts/` | the workflows; each is self-contained |
 | `templates/` | blank structures to copy |
 | `reference/` | rubric, cadence, personas, glossary |
 | `workspace/profile/` | the user's durable material |
+| `workspace/documents/` | uploaded source documents (resumes, reviews, samples) |
 | `workspace/applications/` | per-application artifacts + tracker |
 | `workspace/research/` | company research briefs |
 | `workspace/interviews/` | interview prep docs |
