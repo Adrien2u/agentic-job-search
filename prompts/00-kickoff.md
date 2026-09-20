@@ -10,6 +10,8 @@ Start of any working session. Orients the agent, then hands the user a menu.
 2. `CLAUDE.md` — the standing rules.
 3. `workspace/profile/profile.md` — positioning.
 4. `workspace/applications/tracker.csv` — the current pipeline.
+5. `.learnings/system-adaptations.md` and `.learnings/career-journey.md` (if present) — calibrated weights and career context.
+6. Check `workspace/documents/` for any newly added files to ingest.
 
 Then, before saying anything else, check for anything overdue: rows where `next_action_date` has passed. Lead with those. A menu is not useful if three follow-ups are three days late.
 
@@ -43,8 +45,9 @@ Then the menu.
 > 8. **Follow up** — thank-you, nudge, or close something out
 > 9. **Think through an offer** — evaluate it, frame a counter
 > 10. **Weekly review** — what's stalled, what's next, is this working
-> 11. **Update my profile** — resume, STAR stories, positioning
-> 12. **Run a deep module** — career change, exec positioning, comp, portfolio, relocation, re-entry, clearance
+> 11. **Self-improvement & learnings** — review career past/present/future, market feedback, and tune system
+> 12. **Update my profile** — resume, STAR stories, positioning
+> 13. **Run a deep module** — career change, exec positioning, comp, portfolio, relocation, re-entry, clearance
 >
 > Or just say what you need.
 
@@ -62,8 +65,9 @@ Then the menu.
 | 8 | `prompts/08-follow-up.md` |
 | 9 | `prompts/09-offer-negotiation.md` |
 | 10 | `prompts/10-weekly-review.md` |
-| 11 | the relevant `templates/` file, edited in place |
-| 12 | `SETUP.md` § 4 |
+| 11 | `prompts/11-self-improvement.md` |
+| 12 | the relevant `templates/` file, edited in place |
+| 13 | `SETUP.md` § 4 |
 
 ## Session rules
 
